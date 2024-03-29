@@ -3,4 +3,4 @@ with open('Gitpulltest', 'r') as reader:
     reversed(content)
     with open('Gitpulltest1', 'w') as writer:
         for line in reversed(content):
-            print(writer.write(line))
+            writer.write(line)
